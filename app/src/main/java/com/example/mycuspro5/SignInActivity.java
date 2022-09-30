@@ -36,7 +36,7 @@ public class SignInActivity extends AppCompatActivity {
                 if (username.getText().toString().equals("leducduy") && password.getText().toString().equals("123")){
                     //corect
                     Toast.makeText(SignInActivity.this, "Đăng nhập thành công!",Toast.LENGTH_SHORT).show();
-                    Intent showPro5= new Intent(SignInActivity.this, MainActivity.class);
+                    Intent showPro5= new Intent(SignInActivity.this, pro5.class);
                     startActivity(showPro5);
                 }else
                     //incorrect
